@@ -1,4 +1,5 @@
 heartbeat service written in go
+
 I have basically no idea what I'm doing but it works I guess
 
 Example usage: `heartbeat --endpoint https://google.com --duration 10`
