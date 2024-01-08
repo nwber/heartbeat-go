@@ -19,7 +19,7 @@ func heartbeat(url string, duration int) {
 	// gets timestamp in ISO 8601 (in UTC, of course)
 	// saves output to timestamp.csv
 	now := time.Now().Format(time.RFC3339)
-	outfile := "output/" + now + ".csv"
+	outfile := now + ".csv"
 
 	file, err := os.Create(outfile)
 
